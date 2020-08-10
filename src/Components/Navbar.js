@@ -8,10 +8,12 @@ class Navbar extends React. Component {
     }
     render() { 
         return ( 
-            <React.Fragment>
-                <div>
-                    <h1>Support The Gardian</h1>
-                    <p> Available for EveryOne, funded by readers</p>
+            <React.Fragment >
+                <div className="header">
+                    <div className="Support-div">
+                    <h1 className="Support-text1">Support The Gardian</h1>
+                    <p className="Support-text2"> Available for EveryOne, funded by readers</p>
+                    </div>
                 </div>
             </React.Fragment>
          );
