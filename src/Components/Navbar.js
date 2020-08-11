@@ -16,6 +16,7 @@ class Navbar extends React.Component {
             return (
                 <React.Fragment >
                     <div className="header">
+                        
                        
                        {/* route */}
                         <Router>
@@ -28,15 +29,24 @@ class Navbar extends React.Component {
                                   <li><Link className="Search-Navbar" to ="">Us Edition</Link> </li>
                               </ul>
                             </div>
+                             {/* banner */}
+                             <div className="banner">
+                            <h1 className="text1">the</h1>
+                            <h1 className="text2" >guardian</h1>
+                        </div>
                             {/* support guardian */}
                             <div className="Support-div">
                             <h1 className="Support-text1">Support The Gardian</h1>
                             <p className="Support-text2"> Available for EveryOne, funded by readers</p>
                         </div>
+                          
+                        {/* support links */}
                         <div className="subsnavbar">
                           <Link  className="contribute" to = "#">Contribute</Link>
                           <Link className= "contribute" to = "#">Subcribe</Link>
                         </div>
+                        
+                       
                     {/* big navigation bar */}
                     <div className="BigNavBar">
                         <ul className="navbar">
