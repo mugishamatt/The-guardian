@@ -16,21 +16,23 @@ class Navbar extends React.Component {
             return (
                 <React.Fragment >
                     <div className="header">
-                        <div className="Support-div">
-                            <h1 className="Support-text1">Support The Gardian</h1>
-                            <p className="Support-text2"> Available for EveryOne, funded by readers</p>
-                        </div>
+                       
                        {/* route */}
                         <Router>
                             {/* upper NavBar */}
                             <div className="upper-navbar">
-                              <ul>
+                              <ul className="upper-search">
                                   <li><Link className="Search-Navbar" to ="">Search jobs</Link> </li>
                                   <li><Link className="Search-Navbar" to ="">Sign in</Link> </li>
                                   <li><Link className="Search-Navbar" to ="">Search</Link> </li>
                                   <li><Link className="Search-Navbar" to ="">Us Edition</Link> </li>
                               </ul>
                             </div>
+                            {/* support guardian */}
+                            <div className="Support-div">
+                            <h1 className="Support-text1">Support The Gardian</h1>
+                            <p className="Support-text2"> Available for EveryOne, funded by readers</p>
+                        </div>
                         <div className="subsnavbar">
                           <Link  className="contribute" to = "#">Contribute</Link>
                           <Link className= "contribute" to = "#">Subcribe</Link>
