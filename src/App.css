@@ -25,10 +25,17 @@ list-style: none;
   padding-right: 10px;
 }
 .contribute{
-  padding-right: 10px;
+  padding-right: 20px;
   background-color: yellow;
-  border-radius: 50%;
+  border-radius: 80%;
+  padding:10px 10px 10px 10px
 
+}
+.Support-text1{
+  color: yellow;
+}
+.Support-text2{
+color:white
 }
 
 
