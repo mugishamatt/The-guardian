@@ -23,8 +23,8 @@ class Navbar extends React.Component {
                        {/* route */}
                         <Router>
                         <div className="subsnavbar">
-                          <Link  clasName="contribute" to = "#">Conttribute</Link>
-                          <Link ClassName= "subscribe" to = "#">Subcribe</Link>
+                          <Link  className="contribute" to = "#">Contribute</Link>
+                          <Link className= "contribute" to = "#">Subcribe</Link>
                         </div>
                     {/* big navigation bar */}
                     <div className="BigNavBar">

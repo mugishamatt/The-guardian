@@ -1,8 +1,10 @@
 .header{
   background-color: blue;
+  padding-left: 30px;
 }
 .Support-div{
   text-align: left;
+  padding-left: 10px;
 
 }
 
@@ -17,7 +19,16 @@ list-style: none;
 .News{
   color: white;
   padding-right: 10px;
-  flex:1
+  
+}
+.subsnavbar{
+  padding-right: 10px;
+}
+.contribute{
+  padding-right: 10px;
+  background-color: yellow;
+  border-radius: 50%;
+
 }
 
 
