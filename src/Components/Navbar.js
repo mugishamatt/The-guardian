@@ -22,6 +22,15 @@ class Navbar extends React.Component {
                         </div>
                        {/* route */}
                         <Router>
+                            {/* upper NavBar */}
+                            <div className="upper-navbar">
+                              <ul>
+                                  <li><Link className="Search-Navbar" to ="">Search jobs</Link> </li>
+                                  <li><Link className="Search-Navbar" to ="">Sign in</Link> </li>
+                                  <li><Link className="Search-Navbar" to ="">Search</Link> </li>
+                                  <li><Link className="Search-Navbar" to ="">Us Edition</Link> </li>
+                              </ul>
+                            </div>
                         <div className="subsnavbar">
                           <Link  className="contribute" to = "#">Contribute</Link>
                           <Link className= "contribute" to = "#">Subcribe</Link>
