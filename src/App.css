@@ -42,5 +42,14 @@ list-style: none;
 .Support-text2{
 color:white
 }
-
+/* upper navbar */
+.upper-navbar{
+  display: flex;
+ float: right;
+ top: right;
+}
+.upper-search{
+  display: flex;
+  top: right;
+}
 
