@@ -28,12 +28,14 @@ class Navbar extends React.Component {
                         </div>
                     {/* big navigation bar */}
                     <div className="BigNavBar">
-                       <Link className="News" to ="">News</Link>
-                       <Link className="Opinion" to ="">Opinion</Link>
-                       <Link className="Sport" to ="">Sports</Link>
-                       <Link className="Culture" to ="">Culture</Link>
-                       <Link className="lifestyle" to ="">Lifestyle</Link>
-                       <Link className="More" to ="More">More</Link>
+                        <ul className="navbar">
+                     <li> <Link className="News" to ="">News</Link> </li> 
+                      <li> <Link className="News" to ="">Opinion</Link> </li>
+                       <li><Link className="News" to ="">Sports</Link></li>
+                       <li> <Link className="News" to ="">Culture</Link></li>
+                       <li><Link className="News" to ="">Lifestyle</Link></li>
+                       <li><Link className="News" to ="More">More</Link></li>
+                       </ul>
                     </div>
                         </Router>
                     </div>
