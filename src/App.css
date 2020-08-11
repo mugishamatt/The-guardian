@@ -50,6 +50,28 @@ color:white
 }
 .upper-search{
   display: flex;
-  top: right;
+  color: white;
+  list-style: none;
+  padding-right: 20px;
+  
+}
+.Search-Navbar{
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+/* banner */
+.banner{
+  float: right;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.text1{
+  margin-bottom: 0;
+
+}
+.text2{
+  margin-top: 0;
 }
 
