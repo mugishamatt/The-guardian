@@ -5,3 +5,19 @@
   text-align: left;
 
 }
+
+.navbar{
+
+  display: flex;
+
+text-decoration: none;
+list-style: none;
+
+}
+.News{
+  color: white;
+  padding-right: 10px;
+  flex:1
+}
+
+
